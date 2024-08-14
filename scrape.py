@@ -6,7 +6,7 @@ from db_table import db_table
 import json
 
 START_DATE = "01/01/2019"
-END_DATE = "08/13/2024"
+END_DATE = "08/13/2024"   #why is the end date assigned a fixed value. Should not it be datetime.now() so that everytime code runs, it fetches data until today
 
 # ID used for the AJAX request to get the data
 commodityType = {
